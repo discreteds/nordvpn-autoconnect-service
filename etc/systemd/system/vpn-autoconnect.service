@@ -1,0 +1,17 @@
+# Create this file: /etc/systemd/system/vpn-autoconnect.service
+
+[Unit]
+Description=VPN Auto-connect on Boot
+After=network.target
+Wants=network.target
+
+[Service]
+Type=oneshot
+User=your-username
+ExecStart=/usr/local/bin/vpn-connect.sh
+RemainAfterExit=yes
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
