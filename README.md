@@ -38,7 +38,7 @@ sudo reboot
 You'll need a NordVPN subscription and access token:
 
 **If you don't have a NordVPN account:**
-- Sign up at [NordVPN](https://refer-nordvpn.com/NEPwnWiprpq) *(referral link - helps support this project)*
+- Sign up at [NordVPN](https://refer-nordvpn.com/NEPwnWiprpq) *(referral link - helps support this project - gives us both 1-3 bonus months free)*
 
 **If you already have an account:**
 1. Log into your [NordVPN account](https://my.nordaccount.com/)
